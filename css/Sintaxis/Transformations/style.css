@@ -1,0 +1,47 @@
+/*TRANSITIONS*/
+div{
+    height: 200px;
+    width: 200px;
+    background: hotpink;
+    border: 2px solid pink;
+    margin: 50px;
+
+    /*transition: all 2s linear;*/
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-delay: 0.5;
+}
+
+/*Transformations
+
+IMPORTANT: TRANSFORMATIONS DONT CHANGE RELATIVE POSITIONS OF THE ELEMENTS
+
+    transform: type(amount);
+    transform: typeX(amount);
+    transform: typeY(amount);
+    transform: type(amountX, amountY);
+    transformL type() type()...;
+
+    rotate, skew, translate, scale  */
+
+div#rotate:hover{
+    transform: rotate(360deg);
+    transform-origin: center;
+    background: pink;
+}
+
+div#skew:hover{
+    transform: skew(20deg, 40deg);
+    background: pink;
+}
+
+div#translate:hover{
+    transform: translate(200px, 200px);
+    background: pink;
+}
+
+div#scale:hover{
+    transform: scale(0.5);
+    background: pink;
+}

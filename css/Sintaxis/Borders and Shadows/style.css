@@ -1,0 +1,35 @@
+div{
+    height: 200px;
+    width: 100px;
+    background: pink;
+    margin: 50px;
+    text-align: center;
+
+
+/* BORDERS */
+
+    /*border: 5px solid pink; */
+
+    border-color: black;
+    border-style: dotted;
+    /* solid, dashed, double, dotted, inset, outset, none */
+    border-width: 2px;
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+
+/* SHADOWS */
+
+    box-shadow: 0px -10px 10px -10px black inset,
+                0px 10px 10px -10px black inset;
+
+                /*horizontal, vertical , blur, spread, color, inner */
+
+}
+
+p{
+    position: relative;
+    top: 35%;
+    color: black;
+    font-weight: bold;
+    text-shadow: 0px 5px 5px black;
+}

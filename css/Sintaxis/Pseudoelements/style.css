@@ -1,0 +1,38 @@
+p{
+    position: relative;
+}
+
+p#beforedemo:before{
+    content: "<3";
+}
+
+/* GLOBAL PSEUDOCLASSES
+link, visited, hover, active, focus */
+
+a#link1:link{
+    color: black;
+}
+
+a#link2:visited{
+    color: pink;
+}
+
+/* CUANDO LE PASAS POR ARRIBA CON CURSOR */
+
+.hoverdemo:hover{
+    color: hotpink;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+/* CUANDO CLICKEAS */
+
+.activedemo:active{
+    color: grey;
+}
+
+/* CUANDO ESTOY INTERACTUANDO EN LO QUE CLICKIE */
+
+.focusdemo:focus{
+    border-radius: 2px
+}
